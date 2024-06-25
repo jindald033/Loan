@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-df = pd.read_csv("C:\\Users\\dhruv\\OneDrive\\Pictures\\Churn_Modelling.csv")
+df = pd.read_csv("Churn_Modelling.csv")
 df1 = df[['CreditScore','EstimatedSalary']]
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
